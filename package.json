@@ -1,0 +1,22 @@
+{
+  "name": "generator-docarys",
+  "version": "1.0.0",
+  "description": "A Yeoman generator to scaffold docarys projects",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docarys/generator-docarys.git"
+  },
+  "keywords": [
+    "docarys",
+    "yeoman"
+  ],
+  "author": "Sergio Sisternes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/docarys/generator-docarys/issues"
+  },
+  "homepage": "https://github.com/docarys/generator-docarys#readme"
+}
