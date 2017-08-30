@@ -1,4 +1,10 @@
 site_name: <%= siteName %>
 theme: <%= theme %>
+extra:
+  feature:
+    tabs: false
+  palette:
+    primary: <%= palette.primary %>
+    accent: <%= palette.accent %>
 pages:
   Home: index.md

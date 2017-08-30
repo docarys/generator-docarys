@@ -9,7 +9,11 @@ module.exports = class extends Generator {
         super(args, opts);
         this.ctx = {
             theme: "material",
-            git: true
+            git: true,
+            palette: {
+                primary: "lime",
+                accent: "indigo"
+            }
         };
     }
 
