@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+- '7'
+before_install:
+- npm install -g docarys docarys-material
+after_success:
+# - npm run codacy-cover
+deploy:
+  on:
+    tags: true
+  provider: npm
+  email: sesispla@outlook.com
+  api_key:
+    secure: WJkikrxpj8/RMMpVg04h/khRGS0UAU6x10qVVvYJbWwqHtPyvqyQzHFgyaIqiE2a2L7ILzrBiuNl6xaxi5sXXZTncxEn8w7SpQrZEpngx2dpNmjTvyQmZjSJ/DbZtMeAvsJRXbyOaEI/oKeTPSof1kcmNvdvJCYct8oRC27z0Jma8zRIbc+PElP5iwspn+FyYFLDRGz6itBiji13vC8f4UsFTs9pj01jqQ37SNj9KNFfwqNQi5mDxBYOolgy/hplPItAYFjmoPQCMIyAvbPshncImWnqsU8W8T0DTn6PGbjQGTQEqvOtM/+Nri4nGR4yRTRGnAa3n/4wh+KMFSDVd+KmfXHEfX0p2SNXQ0kF9aGbQUm2pJsBqWIZQrJSCb/Fyl45AqMQE2IpAyZd7XpZWy9+1w6qejAOk8/yQeXDIKDAZ02J+kfVhD2Ah1T9vbdsRWcuVCRbPora/v6LXpcKmal1zpuKlZvXw4TUtoObVgPcx+P0Pa71UCQfJb+tAphzJ+CUjpWI3hpfS+8fF8P0yNLzhgZrI7G1NzRbM2nR4+aqbz481RMjq/N+NWgt+pKsxDkWb7p5vN+rpPDvV8gdBV14XHnLyBsaZ+VnvPcHnYTYzDKKHKtBwuvZCTRgMK4UKGM5avK/zSpJKPpMeuAS50YTbrxYvaUjcYjs3f6sqVo=
