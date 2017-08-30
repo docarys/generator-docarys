@@ -4,19 +4,37 @@
   "description": "A Yeoman generator to scaffold docarys projects",
   "main": "index.js",
   "scripts": {
+    "test": "mocha ./tests/*.js",
+    "cover": "istanbul cover _mocha ./tests/*.js",
+    "codacy-cover": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
   },
+  "files": [
+    "generators"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/docarys/generator-docarys.git"
   },
   "keywords": [
     "docarys",
-    "yeoman"
+    "yeoman-generator"
   ],
   "author": "Sergio Sisternes",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/docarys/generator-docarys/issues"
   },
-  "homepage": "https://github.com/docarys/generator-docarys#readme"
+  "homepage": "https://github.com/docarys/generator-docarys#readme",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "devDependencies": {
+    "codacy-coverage": "^2.0.2",
+    "expect": "^1.20.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.7.0"
+  }
 }
