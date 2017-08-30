@@ -1,20 +1,20 @@
 [![Travis][travis-image]][travis-link]
 [![Codacy][codacy-image]][codacy-link]
-[![Coverage][coverage-image]][coverage-link]
+<!-- [![Coverage][coverage-image]][coverage-link] -->
 [![npm][npm-image]][npm-link]
 
-  [travis-image]: https://travis-ci.org/docarys/docarys.svg?branch=master
-  [travis-link]: https://travis-ci.org/docarys/docarys
-  [codacy-image]: https://api.codacy.com/project/badge/Grade/bae6b0b8d04b4cd9a7b69f6e3988b31e?isInternal=true
-  [codacy-link]: https://www.codacy.com/app/sesispla/docarys?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=docarys/docarys&amp;utm_campaign=Badge_Grade
-  [coverage-image]: https://api.codacy.com/project/badge/Coverage/bae6b0b8d04b4cd9a7b69f6e3988b31e
-  [coverage-link]: https://www.codacy.com/app/sesispla/docarys?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=docarys/docarys&amp;utm_campaign=Badge_Coverage
-  [npm-image]: https://img.shields.io/npm/dt/docarys.svg
-  [npm-link]: hhttps://www.npmjs.com/package/docarys
+  [travis-image]: https://travis-ci.org/docarys/generator-docarys.svg?branch=master
+  [travis-link]: https://travis-ci.org/docarys/generator-docarys
+  [codacy-image]: https://api.codacy.com/project/badge/Grade/b550877f64f74503b928881dda92c4a1
+  [codacy-link]: https://www.codacy.com/app/sesispla/generator-docarys?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=docarys/generator-docarys&amp;utm_campaign=Badge_Grade
+  <!-- [coverage-image]: https://api.codacy.com/project/badge/Coverage/bae6b0b8d04b4cd9a7b69f6e3988b31e
+  [coverage-link]: https://www.codacy.com/app/sesispla/docarys?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=docarys/docarys&amp;utm_campaign=Badge_Coverage -->
+  [npm-image]: https://img.shields.io/npm/dt/generator-docarys.svg
+  [npm-link]: hhttps://www.npmjs.com/package/generator-docarys
 
-# docarys
+# generator-docarys
 
-[docarys](http://www.docarys.io) is yet a static site generator. Simple. Flexible. Customizable. Period.
+generator-docarys is the Yeoman generator for [docarys](http://www.docarys.io). Docarys is yet a static site generator. Simple. Flexible. Customizable. Period.
 
 docarys is as magic as a dragon spiting fire 🐉 🔥
 
@@ -42,12 +42,6 @@ docarys serve
 More details coming soon.
 
 > For detailed installation instructions and a demo, visit (soon) http://www.docarys.io
-
-## License
-
-docarys is a Node enhaced port of [MkDocs](https://github.com/mkdocs/mkdocs) by Tom Christie
-
-docarys-material is a hard-fork from [mkdocs-material](https://github.com/squidfunk/mkdocs-material) by Martin Donath
 
 **MIT License**
 
