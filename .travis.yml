@@ -5,7 +5,7 @@ node_js:
 before_install:
 - npm install -g docarys docarys-material
 after_success:
-# - npm run codacy-cover
+- npm run codacy-cover
 deploy:
   on:
     tags: true
