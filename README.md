@@ -1,7 +1,7 @@
 [![Travis][travis-image]][travis-link]
 [![Codacy][codacy-image]][codacy-link]
-<!-- [![Coverage][coverage-image]][coverage-link] -->
 [![npm][npm-image]][npm-link]
+<!-- [![Coverage][coverage-image]][coverage-link] -->
 
   [travis-image]: https://travis-ci.org/docarys/generator-docarys.svg?branch=master
   [travis-link]: https://travis-ci.org/docarys/generator-docarys
@@ -14,7 +14,9 @@
 
 # generator-docarys
 
-generator-docarys is the Yeoman generator for [docarys](http://www.docarys.io). Docarys is yet a static site generator. Simple. Flexible. Customizable. Period.
+generator-docarys is the Yeoman generator for [docarys](http://www.docarys.io). 
+
+docarys is yet another static site generator. Simple. Flexible. Customizable. Period.
 
 docarys is as magic as a dragon spitting fire 🐉 🔥
 
