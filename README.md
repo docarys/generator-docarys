@@ -1,14 +1,14 @@
 [![Travis][travis-image]][travis-link]
 [![Codacy][codacy-image]][codacy-link]
+[![Coverage][coverage-image]][coverage-link]
 [![npm][npm-image]][npm-link]
-<!-- [![Coverage][coverage-image]][coverage-link] -->
 
   [travis-image]: https://travis-ci.org/docarys/generator-docarys.svg?branch=master
   [travis-link]: https://travis-ci.org/docarys/generator-docarys
   [codacy-image]: https://api.codacy.com/project/badge/Grade/b550877f64f74503b928881dda92c4a1
   [codacy-link]: https://www.codacy.com/app/sesispla/generator-docarys?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=docarys/generator-docarys&amp;utm_campaign=Badge_Grade
-  <!-- [coverage-image]: https://api.codacy.com/project/badge/Coverage/bae6b0b8d04b4cd9a7b69f6e3988b31e
-  [coverage-link]: https://www.codacy.com/app/sesispla/docarys?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=docarys/docarys&amp;utm_campaign=Badge_Coverage -->
+  [coverage-image]: https://api.codacy.com/project/badge/Coverage/b550877f64f74503b928881dda92c4a1
+  [coverage-link]: https://www.codacy.com/app/sesispla/generator-docarys?utm_source=github.com&utm_medium=referral&utm_content=docarys/generator-docarys&utm_campaign=Badge_Coverage
   [npm-image]: https://img.shields.io/npm/dt/generator-docarys.svg
   [npm-link]: hhttps://www.npmjs.com/package/generator-docarys
 
