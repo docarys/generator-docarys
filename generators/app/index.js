@@ -21,9 +21,9 @@ module.exports = class extends Generator {
 
     prompting() {
         return this.prompt([{
-            type: 'input',
-            name: 'siteName',
-            message: 'Your project name',
+            type: "input",
+            name: "siteName",
+            message: "Your project name",
             default: this.appname // Default to current folder name
         }]).then((answers) => {
             this.ctx.siteName = answers.siteName;
@@ -61,4 +61,4 @@ module.exports = class extends Generator {
     install() {}
 
     end() {}
-}
+};

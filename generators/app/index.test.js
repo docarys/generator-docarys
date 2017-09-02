@@ -11,14 +11,6 @@ function onPromiseError(reason) {
     expect(false).toBeTruthy("Error in the promise" + reason);
 }
 
-beforeEach(function () {
-    // The object returned acts like a promise, so return it to wait until the process is done
-    return helpers.run(__dirname)
-        .withPrompts({
-            siteName: "docarys"
-        });
-})
-
 describe("App", function () {
     it("Creates a new project with basic options", function () {
         return helpers.run(__dirname)
