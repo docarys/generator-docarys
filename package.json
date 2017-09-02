@@ -4,8 +4,8 @@
   "description": "A Yeoman generator to scaffold docarys projects",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/*.js",
-    "cover": "istanbul cover _mocha ./tests/*.js",
+    "test": "mocha ./generators/**/*.test.js",
+    "cover": "istanbul cover _mocha ./generators/**/*.test.js",
     "codacy-cover": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage"
   },
   "files": [
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/docarys/generator-docarys#readme",
   "dependencies": {
+    "yamljs": "^0.3.0",
     "yeoman-generator": "^1.1.1"
   },
   "devDependencies": {
