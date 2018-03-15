@@ -7,4 +7,6 @@ extra:
     primary: <%= palette.primary %>
     accent: <%= palette.accent %>
 pages:
-  Home: index.md
+  - Home: index.md
+  - Level 1:
+      - Index: level 1/index.md

@@ -19,6 +19,7 @@ describe("App", function () {
             }).then(function () {
                 assert.file(["docarys.yml"]);
                 assert.file(["docs/index.md"]);
+                assert.file(["docs/level 1/index.md"]);
                 assert.file([".gitignore"]);
                 // Assert configuration content
                 var cfg = yaml.load("docarys.yml");
@@ -28,7 +29,6 @@ describe("App", function () {
                 expect(cfg.extra.palette.primary).toBe("lime");
                 expect(cfg.extra.palette.accent).toBe("indigo");
                 expect(cfg.pages).toExist();
-                expect(cfg.pages.Home).toBe("index.md");
             });
     });
 });

@@ -47,6 +47,13 @@ module.exports = class extends Generator {
             this.ctx
         );
 
+        this.fs.copyTpl(
+            this.templatePath("docs/level 1/index.md"),
+            this.destinationPath("docs/level 1/index.md"),
+            this.ctx
+        );
+        
+
         if (this.ctx.git) {
             this.fs.copyTpl(
                 this.templatePath(".gitignore"),
