@@ -42,6 +42,12 @@ module.exports = class extends Generator {
         );
 
         this.fs.copyTpl(
+            this.templatePath("Dockerfile"),
+            this.destinationPath("Dockerfile"),
+            this.ctx
+        );        
+
+        this.fs.copyTpl(
             this.templatePath("docs/index.md"),
             this.destinationPath("docs/index.md"),
             this.ctx
@@ -52,7 +58,6 @@ module.exports = class extends Generator {
             this.destinationPath("docs/level 1/index.md"),
             this.ctx
         );
-        
 
         if (this.ctx.git) {
             this.fs.copyTpl(
