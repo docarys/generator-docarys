@@ -1,6 +1,7 @@
 site_name: <%= siteName %>
-theme: <%= theme %>
-extra:
+theme:
+  name: <%= theme %>
+  language: <%= language %>
   feature:
     tabs: false
   palette:
