@@ -1,6 +1,6 @@
 {
   "name": "generator-docarys",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "A Yeoman generator to scaffold docarys projects",
   "main": "index.js",
   "scripts": {
